@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="168dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="#FBFBFD">
+
+        <ImageView
+            android:id="@+id/mag_poster_design"
+            android:layout_width="120dp"
+            android:layout_height="148dp"
+            android:src="@drawable/richdad_poster"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/magHeader_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book Name"
+                android:fontFamily="@font/overpass"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="15dp"
+                android:textSize="20sp"
+                android:textColor="#201F1F"/>
+
+          <LinearLayout
+              android:layout_marginTop="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+              <TextView
+                  android:layout_width="80dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="15dp"
+                  android:layout_marginTop="5dp"
+                  android:fontFamily="@font/overpass_thin"
+                  android:text="Published : "
+                  android:textColor="#27282B"
+                  android:textSize="15sp" />
+
+              <TextView
+                  android:id="@+id/published"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="5dp"
+                  android:layout_marginTop="5dp"
+                  android:fontFamily="@font/overpass_thin"
+                  android:text="Published : "
+                  android:textColor="#2858D3"
+                  android:textSize="15sp" />
+          </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Language : "
+                    android:textColor="#252424"
+                    android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:id="@+id/language"
+                android:text="Language"
+                android:textColor="#252424"
+                android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/overpass_thin"
+                    android:text="Country : "
+                    android:textColor="#1B1A1A"
+                    android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/overpass_thin"
+                android:textSize="14sp"
+                android:textColor="#191818"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

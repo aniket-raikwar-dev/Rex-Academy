@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#292F40</color>
+    <color name="colorPrimaryDark">#292F40</color>
+    <color name="colorAccent">#292F40</color>
+
+
+    <color name="button_start">#5A74BD</color>
+    <color name="button_end">#0F1830</color>
+
+    <color name="yellow">#FFC107</color>
+    <color name="blue">#03A9F4</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#EF0A0A</color>
+    <color name="test">#FF5722</color>
+
+</resources>

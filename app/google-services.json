@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "957576425094",
+    "project_id": "rex-academy-6f316",
+    "storage_bucket": "rex-academy-6f316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957576425094:android:e39edea939ac2e71b72b07",
+        "android_client_info": {
+          "package_name": "com.example.rexacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957576425094-knqt0n26gge1du33g47lfnpv4dr8ohl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rexacademy",
+            "certificate_hash": "d21612481e8d7739dccab2e217cf2752a248c257"
+          }
+        },
+        {
+          "client_id": "957576425094-r528hc19jc6lrj0bhvosst9olcs8nj0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_jbm72RlIIXRTbAj8LNJTf4PIzpE2x7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957576425094-r528hc19jc6lrj0bhvosst9olcs8nj0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

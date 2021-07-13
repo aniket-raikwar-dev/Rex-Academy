@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rexacademy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".termsCondition"></activity>
+        <activity android:name=".viewMagPdf" />
+        <activity android:name=".magzine_Show" />
+        <activity android:name=".About" />
+        <activity android:name=".DeveloperScreen" />
+        <activity android:name=".viewComicpdf" />
+        <activity android:name=".viewPdf" />
+        <activity android:name=".addVideo" />
+        <activity android:name=".resetPopUpWindow" />
+        <activity android:name=".forgetPasswordSentLink" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".VerifyMail" />
+        <activity android:name=".RegisterPage" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".comic_show" />
+        <activity android:name=".book_show" />
+        <activity android:name=".video_show" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperScreen">
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="D E V E L O P E R S"
+               android:padding="20dp"
+               android:textSize="18sp"
+               android:fontFamily="sans-serif">
+           </TextView>
+
+           <LinearLayout
+               android:layout_marginTop="50dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Prof. Bhagyashali Kokode"
+                   android:textAlignment="center"
+                   android:textSize="16sp"
+                   android:textColor="#47597E"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="- Guidance -"
+                   android:textAlignment="center"
+                   android:textSize="14sp"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:fontFamily="@font/overpass_thin"
+                   android:text="Working at TGPCET (Nagpur University) as a Professor Assistant of B.E in Information Technology Branch."
+                   android:textAlignment="center"
+                   android:textSize="13sp"
+                   android:textColor="#2E2D2D">
+               </TextView>
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_marginTop="40dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Aniket A. Raikwar"
+                   android:textAlignment="center"
+                   android:textSize="16sp"
+                   android:textColor="#47597E"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="- Leader -"
+                   android:textAlignment="center"
+                   android:textSize="14sp"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:text="Studying in TGPCET (Nagpur University) of B.E in Information Technology Branch.
+You can Follow him on Youtube - 'GELVIX TECH' and If You Facing any issue on using this App, You can contact us - 'aniketashok1999@gmail.com'"
+                   android:textAlignment="center"
+                   android:fontFamily="@font/overpass_thin"
+                   android:textSize="13sp"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+           </LinearLayout>
+
+
+
+           <LinearLayout
+               android:layout_marginTop="40dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Tushar Hatwar"
+                   android:textAlignment="center"
+                   android:textSize="16sp"
+                   android:textColor="#47597E"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="- Team Member -"
+                   android:textAlignment="center"
+                   android:textSize="14sp"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:text="He is a Student of B.E in Information Technology and a Team Member of REX ACADEMY, which is Playing a Whiten Role for Developing this Application."
+                   android:textAlignment="center"
+                   android:fontFamily="@font/overpass_thin"
+                   android:textSize="13sp"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+           </LinearLayout>
+
+
+
+           <LinearLayout
+               android:layout_marginTop="40dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Bhagyashri Singone"
+                   android:textAlignment="center"
+                   android:textSize="16sp"
+                   android:textColor="#47597E"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="- Team Member -"
+                   android:textAlignment="center"
+                   android:textSize="14sp"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:text="She is Also a Student of TGPCET, and a Team Member of this group, she also play a whiten role for Developing this Application."
+                   android:textAlignment="center"
+                   android:textSize="13sp"
+                   android:fontFamily="@font/overpass_thin"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_marginTop="40dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="40dp"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Mohit Patil"
+                   android:textAlignment="center"
+                   android:textSize="16sp"
+                   android:textColor="#47597E"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="- Team Member -"
+                   android:textAlignment="center"
+                   android:textSize="14sp"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:text="He is a Student of B.E in Information Technology and a Team Member of REX ACADEMY, which is Playing a Whiten Role for Developing this Application."
+                   android:textAlignment="center"
+                   android:textSize="13sp"
+                   android:fontFamily="@font/overpass_thin"
+                   android:textColor="#2D2D2E">
+               </TextView>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+
+</ScrollView>

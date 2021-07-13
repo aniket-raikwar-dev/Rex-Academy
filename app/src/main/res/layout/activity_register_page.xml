@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#161B37"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/overpass_thin"
+                    android:padding="2dp"
+                    android:text="Welcome,"
+                    android:textColor="#536DFE"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:fontFamily="@font/overpass_thin"
+                    android:text="Create a New Account."
+                    android:textColor="#CDCBCB"
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass"
+                android:text="S i g n - u p"
+
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:fontFamily="@font/overpass_thin"/>
+
+            <EditText
+                android:id="@+id/registerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_thin"
+                android:textColor="#fff"
+                android:backgroundTint="#fff"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address : "
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/overpass_thin"/>
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_thin"
+                android:textColor="#fff"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="#fff"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password : "
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/overpass_thin"/>
+
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_thin"
+                android:textColor="#fff"
+                android:inputType="textPassword"
+                android:backgroundTint="#fff"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm Password : "
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/overpass_thin"/>
+
+            <EditText
+                android:id="@+id/registerConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/overpass_thin"
+                android:textColor="#fff"
+                android:inputType="textPassword"
+                android:backgroundTint="#fff"
+                android:textSize="18sp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="#536DFE"
+                android:clickable="true"
+                android:fontFamily="@font/reem_kufi"
+                android:text="R e g i s t e r"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Or Sign - up Using : "
+                android:textColor="#fff"
+                android:fontFamily="@font/overpass_thin"
+                android:textSize="15sp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="#ED112B"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/reem_kufi"
+                android:text="G o o g l e"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Already have an Account ?"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:fontFamily="@font/overpass_thin"/>
+
+            <TextView
+                android:id="@+id/gotoLogin"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/overpass_thin"
+                android:text="L o g i n"
+                android:textAllCaps="false"
+                android:textColor="#536DFE"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

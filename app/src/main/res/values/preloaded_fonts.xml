@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/chelsea_market</item>
+        <item>@font/iceberg</item>
+        <item>@font/noto_sans_bold</item>
+        <item>@font/overpass</item>
+        <item>@font/overpass_thin</item>
+        <item>@font/oxygen_bold</item>
+        <item>@font/reem_kufi</item>
+        <item>@font/tauri</item>
+        <item>@font/warnes</item>
+    </array>
+</resources>
